@@ -27,11 +27,11 @@
 
 # <b>Visualization</b>
 - <b>Feature Emprtance</b>
-- ![Feature_Imp](image-4.png)
+- Data/Featureimportance.png
 - <b>Employment Status 1 = full time,Self employed & there are few retirees in category 0</b>
-- ![Emp_ownership](image-9.png)
+- Data/EmpVsOwership.png
 - <b>Income Range 1= <=$25k, 2= <=100k AN, 3=>=100k </b>
-- ![Income_Loanstatus](image-7.png)
+- Data/IncomeVsloanstatus.png
 - <b>Loan Status 0=Safe, 1 = Risk 2= Bad</b>
-- ![Income_ownership](image-10.png)
+- Data/IncomeVsOwership.png
 
