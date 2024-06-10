@@ -1,8 +1,81 @@
 
 # <b>Project_4 - Group_3</b>
 
+# 
+
 # <b>Scope</b>
  - <b> Objective of this project is to predict probability of loan repayment among different customer segments</b>.
+
+ ## Objective description
+ The project is founded on Prosper Loan Dataset by Nurudeen Abdulsalaam, sourced via Kaggle [https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset].The Dataset provides an additional document for variable definition accessible @[https://docs.google.com/spreadsheets/d/1gDyi_L4UvIrLTEC6Wri5nbaMmkGmLQBk-Yx3z0XDEtI/edit#gid=0].
+
+ Our project used the Prosper Loan Dataset to create a train test split loan repayment prediction model,powered by many more sklearn imports. The prediction model is designed to predict loan repayment statuses to assist in credit risk reviewing.
+
+ This model could be used by financial intermediaries or loanees evaluating current and future loan status classifications.
+
+ From the model Loan Statuses are Mapped as,
+ 
+    'Completed': "1",
+    'Current': "1",
+    'FinalPaymentInProgress': "1",
+    'Past Due (1-15 days)': "2",
+    'Past Due (16-30 days)': "2",
+    'Past Due (31-60 days)': "2",
+    'Past Due (61-90 days)': "3",
+    'Past Due (91-120 days)': "3",
+    'Past Due (>120 days)': "3",
+    'Chargedoff': "4",
+    'Defaulted': "4",
+    'Cancelled': "4",.
+
+The model is currently scaled on 
+
+'Term',
+'ProsperRating (numeric)',
+'Average Credit Score',
+'EmploymentStatus',
+'IsBorrowerHomeowner',
+'IncomeRange',
+'StatedMonthlyIncome',
+'BorrowerRate',
+'EmploymentStatusDuration',
+'LoanMonthsSinceOrigination',
+'LoanOriginalAmount',
+'TotalProsperPaymentsBilled',
+'OnTimeProsperPayments',
+'LP_CustomerPayments',
+'MonthlyLoanPayment',
+'RevolvingCreditBalance',
+'CurrentDelinquencies',
+'Recommendations',
+'Investors',
+'ProsperPrincipalBorrowed',
+'ProsperPrincipalOutstanding'.
+
+however is only trained on 
+
+'Average Credit Score',
+'BorrowerRate',
+'LoanMonthsSinceOrigination',
+'MonthlyLoanPayment',
+'RevolvingCreditBalance',
+'LoanOriginalAmount',
+'LP_CustomerPayments',
+'Investors',
+'StatedMonthlyIncome'
+
+This is as from the 81 original columns, only 22 columns including loan status were viewed as key influencial features.
+
+To determine the features used within the model, Global Feature Importance plots were used, to analyze the weight of each feature to a loan statuses prediction.
+
+Additionally 18 trial variations were applied against the model to increase the prediction accuracy.
+
+Affects of Mircofinance
+
+
+
+
+
 
  # <b>Dataset/Data Model/Steps</b>
 - <b>Find Data/Data Source</b> - Quality, quantity and integrity of Data and Data source.
@@ -53,6 +126,7 @@ pip install pandas - numpy - matplotlib - seaborn - scikit-learn
 6. **Model Building**:
    - Split the data into training and testing sets.
    - Standardize the features.
+   - Build and evaluate a Global Features Importance
    - Build and evaluate a Random Forest Classifier.
    - Build and evaluate a Logistic Regression model.
    - Build and evaluate a Linear SVM model.
@@ -64,6 +138,8 @@ pip install pandas - numpy - matplotlib - seaborn - scikit-learn
 - <b>RandomForestClassifier</b> :- Random forest classifier is a set of decision trees of random subset of training set. It aggregates the votes from decision trees to decide the final class of the test object.
 - <b>Random Forest</b> :- Stochastic gradient descent model is an algorithm often used in machine learning to find the model parameters that correspond to the best fit between predicted and actual outputs.
 - <b>Linear SVM</b> :- Support vector machine (SVM) is a type of supervised learning algorithm used in machine learning to solve classification and regression tasks.
+
+
 
 # <b>Visualization</b>
 - <b>Feature Emprtance</b>
