@@ -27,11 +27,11 @@
 
 # <b>Visualization</b>
 - <b>Feature Emprtance</b>
-  (https://github.com/LachlanPotter33/Proj-4-Group-3/blob/7fc7935bd21740fb18e8708e867bfe4affc3f52c/Data/Featureimportance.png)
+  https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/Featureimportance.png
 - <b>Employment Status 1 = full time,Self employed & there are few retirees in category 0</b>
-  (https://github.com/LachlanPotter33/Proj-4-Group-3/blob/7fc7935bd21740fb18e8708e867bfe4affc3f52c/Data/EmpVsOwership.png)
+  https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/EmpVsOwership.png
 - <b>Income Range 1= <=$25k, 2= <=100k AN, 3=>=100k </b>
-  (https://github.com/LachlanPotter33/Proj-4-Group-3/blob/7fc7935bd21740fb18e8708e867bfe4affc3f52c/Data/IncomeVsloanstatus.png)
+  https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/IncomeVsloanstatus.png
 - <b>Loan Status 0=Safe, 1 = Risk 2= Bad</b>
-  (https://github.com/LachlanPotter33/Proj-4-Group-3/blob/7fc7935bd21740fb18e8708e867bfe4affc3f52c/Data/IncomeVsOwership.png)
+  https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/IncomeVsOwership.png
 
