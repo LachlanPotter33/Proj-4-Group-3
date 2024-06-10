@@ -23,7 +23,7 @@
 
 # <b>Visualization</b>
 - <b>Feature Emprtance</b>
-  https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/Featureimportance.png?raw=true
+  github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/Featureimportance.png?raw=true
 - <b>Employment Status 1 = full time,Self employed & there are few retirees in category 0</b>
   https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/EmpVsOwership.png
 - <b>Income Range 1= <=$25k, 2= <=100k AN, 3=>=100k </b>
