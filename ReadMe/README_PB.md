@@ -1,20 +1,16 @@
 
 # <b>Project_4 - Group_3</b>
 
-
 # <b>Scope</b>
  - <b> Objective of this project is to predict probability of loan repayment among different customer segments</b>.
 
- # <b>Dataset/Data Model</b>
- - <b>Find Data/Data Source</b> - Quality, quantity and integrity of Data and Data source.
+ # <b>Dataset/Data Model/Steps</b>
+- <b>Find Data/Data Source</b> - Quality, quantity and integrity of Data and Data source.
 - <b>Data Cleaning</b> - cleansing and preparing data.
 - <b>Best fit Algorithm</b> - Find best fit algorithm/Model.
-- <b>Model Development</b> - Selection of right parameters  
-     for analysis.
-- <b>Model Optimization</b> - Improve the model performance
-     by making adjustments to the parameters.
-- <b>Model Evaluation</b> - Testing the model on sample for
-     accuracy.
+- <b>Model Development</b> - Selection of right parameters for analysis.
+- <b>Model Optimization</b> - Improve the model performance by making adjustments to the parameters.
+- <b>Model Evaluation</b> - Testing the model on sample for accuracy.
 
 
 
@@ -26,8 +22,12 @@
 - <b>Linear SVM</b> :- Support vector machine (SVM) is a type of supervised learning algorithm used in machine learning to solve classification and regression tasks.
 
 # <b>Visualization</b>
-- <b>Feature Emprtance</b> (https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/Featureimportance.png)
-- <b>Employment Status 1 = full time,Self employed & there are few retirees in category 0</b> (https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/EmpVsOwership.png)
-- <b>Income Range 1= <=$25k, 2= <=100k AN, 3=>=100k </b> (https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/IncomeVsloanstatus.png)
-- <b>Loan Status 0=Safe, 1 = Risk 2= Bad</b> (https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/IncomeVsOwership.png)
+- <b>Feature Emprtance</b>
+  (https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/Featureimportance.png)
+- <b>Employment Status 1 = full time,Self employed & there are few retirees in category 0</b>
+  (https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/EmpVsOwership.png)
+- <b>Income Range 1= <=$25k, 2= <=100k AN, 3=>=100k </b>
+  (https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/IncomeVsloanstatus.png)
+- <b>Loan Status 0=Safe, 1 = Risk 2= Bad</b>
+  (https://github.com/LachlanPotter33/Proj-4-Group-3/blob/main/Data/IncomeVsOwership.png)
 
