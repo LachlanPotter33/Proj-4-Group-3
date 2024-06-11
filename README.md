@@ -13,7 +13,7 @@
 
  This model could be used by financial intermediaries or loanees evaluating current and future loan status classifications.
 
- From the model Loan Statuses are Mapped as,
+ From the model Loan Statuse outcomes are converted from categorical features to numerical values, for scaling.
  
     'Completed': "1",
     'Current': "1",
@@ -28,7 +28,7 @@
     'Defaulted': "4",
     'Cancelled': "4",.
 
-The model is currently scaled on 
+Additionally the model is currently scaled on 
 
 'Term',
 'ProsperRating (numeric)',
@@ -66,9 +66,12 @@ however is only trained on
 
 This is as from the 81 original columns, only 22 columns including loan status were viewed as key influencial features.
 
-To determine the features used within the model, Global Feature Importance plots were used, to analyze the weight of each feature to a loan statuses prediction.
+To determine the features used within the model, RandomForest was applied to produce the desired hierachy before being visualized using "Global Feature Importance" plot. This plot allowed the team to analyze the weight of each feature to a loan statuses prediction.
 
-Additionally 18 trial variations were applied against the model to increase the prediction accuracy.
+The model experienced 18 trial variations with the attempt to increase the prediction accuracy.
+
+# Result
+The Model 
 
 Affects of Mircofinance
 
