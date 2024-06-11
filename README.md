@@ -1,8 +1,6 @@
 
 # <b>Project_4 - Group_3</b>
 
-# 
-
 # <b>Scope</b>
  - <b> Objective of this project is to predict probability of loan repayment among different customer segments</b>.
 
@@ -52,7 +50,7 @@ Additionally the model is currently scaled on
 'ProsperPrincipalBorrowed',
 'ProsperPrincipalOutstanding'.
 
-however is only trained on 
+and trained on the following 
 
 'Average Credit Score',
 'BorrowerRate',
@@ -66,12 +64,12 @@ however is only trained on
 
 This is as from the 81 original columns, only 22 columns including loan status were viewed as key influencial features.
 
-To determine the features used within the model, RandomForest was applied to produce the desired hierachy before being visualized using "Global Feature Importance" plot. This plot allowed the team to analyze the weight of each feature to a loan statuses prediction.
+To determine the features used within the training model, RandomForest was applied to produce the desired hierachy before being visualized using "Global Feature Importance" plot. This plot allowed the team to analyze the weight of each feature to a loan statuses prediction.
 
 The model experienced 18 trial variations with the attempt to increase the prediction accuracy.
 
 # Result
-The Model 
+The Model concluded with an accuracy_score: 87.71848137535817 % 
 
 Affects of Mircofinance
 
