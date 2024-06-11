@@ -69,11 +69,30 @@ To determine the features used within the training model, RandomForest was appli
 The model experienced 18 trial variations with the attempt to increase the prediction accuracy.
 
 # Result
-The Model concluded with an accuracy_score: 87.71848137535817 % 
+The Model concluded with an accuracy_score: 87.71848137535817 %.
 
-Affects of Mircofinance
+An attempted Confusion Matrix was applied however the dataFrame was reduced to 27920 rows compare to the clean Dataframe of 100510.
+This unwanted reduction may of been the result of a model limitation. Due to time restrictions the following was unable to be resolved.
 
+The impact of the reduced Dataframe on the confusion matrix saw the disproportion quanitity of good loans / 1's skew the train model and negative impacted the predicition accuracy of other loan Statuses.
 
+Accuracy Score : 0.8551934097421203
+Classification Report
+              precision    recall  f1-score   support
+
+           1       0.86      0.99      0.92     23371
+           2       0.00      0.00      0.00       361
+           3       0.02      0.01      0.01       166
+           4       0.81      0.17      0.28      4022
+
+    accuracy                           0.86     27920
+   macro avg       0.42      0.29      0.30     27920
+weighted avg       0.83      0.86      0.81     27920
+
+A consideration of our result is that though the model can predict the accuracy of a good loan, the objective was primarily predict accurately Credit Risk Loans/ At Risk Loans.
+
+# Tableau Visual Dashboard
+https://public.tableau.com/app/profile/madeleine.chapman/viz/project4_17174152559490/Story1?publish=yes
 
 
 
