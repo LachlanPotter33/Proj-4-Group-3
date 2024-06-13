@@ -72,11 +72,19 @@ The model experienced 18 trial variations with the attempt to increase the predi
 The Model concluded with an accuracy_score: 87.71848137535817 %.
 
 An attempted Confusion Matrix was applied however the dataFrame was reduced to 27920 rows compare to the clean Dataframe of 100510.
-This unwanted reduction may of been the result of a model limitation. Due to time restrictions the following was unable to be resolved.
+This unwanted reduction may of been the result of a Train_test_split. Due to time restrictions the following was unable to be resolved.
 
-The impact of the reduced Dataframe on the confusion matrix saw the disproportion quanitity of good loans / 1's skew the train model and negative impacted the predicition accuracy of other loan Statuses.
+The impact of the reduced Dataframe on the confusion matrix saw the disproportion quanitity of good loans / 1's skew the train model and negative impacted the predicition accuracy of other loan Statuses, commonly referred to as an Imbalance Data.
 
+RandomForest_model = Accuracy Score: 87.71848137535817 %
+
+LogisticRegression=  Accuracy Score: 83.74364239833807 %
+
+SGDClassifier = Accuracy Score: 85.54406743236467 %
+
+Confusion_matrix
 Accuracy Score : 0.8551934097421203
+
 Classification Report
               precision    recall  f1-score   support
 
@@ -89,7 +97,9 @@ Classification Report
    macro avg       0.42      0.29      0.30     27920
 weighted avg       0.83      0.86      0.81     27920
 
-A consideration of our result is that though the model can predict the accuracy of a good loan, the objective was primarily predict accurately Credit Risk Loans/ At Risk Loans.
+A consideration of our result is that though the model can predict the accuracy of a good loan, the objective was primarily predict accurately Credit Risk and High Risk Loans.
+Model is not recommended for current implementation as a result.
+
 
 # Tableau Visual Dashboard
 https://public.tableau.com/app/profile/madeleine.chapman/viz/project4_17174152559490/Story1?publish=yes
